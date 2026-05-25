@@ -1,0 +1,31 @@
+theme = "moonfly"
+
+[editor]
+line-number = "relative"
+mouse = false
+clipboard-provider = "x-clip"
+auto-pairs = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.whitespace.render]
+space = "all"
+tab = "none"
+nbsp = "none"
+nnbsp = "none"
+newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+
+[keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
+
+[editor.gutters]
+layout = ["diagnostics", "spacer", "line-numbers", "spacer"]
