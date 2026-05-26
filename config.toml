@@ -25,6 +25,8 @@ newline = "none"
 space = "·"
 
 [keys.normal]
+"{" = ["goto_prev_paragraph"]
+"}" = ["goto_next_paragraph"]
 esc = ["collapse_selection", "keep_primary_selection"]
 ";" = "repeat_last_motion"
 X = ["extend_line_above", "extend_to_line_bounds"]
