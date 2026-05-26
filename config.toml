@@ -31,5 +31,8 @@ esc = ["collapse_selection", "keep_primary_selection"]
 ";" = "repeat_last_motion"
 X = ["extend_line_above", "extend_to_line_bounds"]
 
+[keys.select]
+";" = "repeat_last_motion"
+
 [editor.gutters]
 layout = ["diagnostics", "spacer", "line-numbers", "spacer"]
